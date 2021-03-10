@@ -1,0 +1,31 @@
+@import '../variables';
+.carouselItem{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(5,1fr);
+  height:75vh;
+
+  &__image{
+    grid-column: 1/4;
+    grid-row: 1/6;
+    object-fit: cover;
+    object-position: center;
+  }
+  &__content{
+    grid-column: 1/4;
+    grid-row: 3/6;
+    background: linear-gradient(to bottom, hsla(0,0%,0%,0), hsla(0,0%,0%,1));
+    color:$backgroundColor;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  &__CTA{
+    background-color: $primaryColor;
+    color: $backgroundColor;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    border:2px solid $secondaryColor;
+  }
+}

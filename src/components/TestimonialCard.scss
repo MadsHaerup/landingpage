@@ -1,0 +1,16 @@
+@import '../variables';
+
+.testimonialCard{
+  margin-left:1rem;
+  margin-right:1rem;
+  &__image{
+    border-radius:5px;
+    width:100%;
+    height:auto;
+    box-shadow: 6px 3px 9px 5px #afaeae;
+
+  }
+  &__copy{
+    text-align: center;
+  }
+}
