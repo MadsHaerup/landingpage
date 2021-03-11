@@ -17,7 +17,7 @@ export default function Gallery() {
           <CarouselItem 
           image="https://picsum.photos/1920/1080?random=0"
           copy="Get happier customers and retain them"
-          ctaLunk="/founders"
+          ctaLink="/founders"
           ctaCopy="Click here, to get started"
           />
         </Carousel.Item>
@@ -25,7 +25,7 @@ export default function Gallery() {
           <CarouselItem 
           image="https://picsum.photos/1920/1080?random=1"
           copy="Turn your business into a moneymaker"
-          ctaLunk="/founders"
+          ctaLink="/founders"
           ctaCopy="Click here, to get started"
           />
         </Carousel.Item>
@@ -33,7 +33,7 @@ export default function Gallery() {
           <CarouselItem 
           image="https://picsum.photos/1920/1080?random=2"
           copy="How to start a profitable business"
-          ctaLunk="/founders"
+          ctaLink="/founders"
           ctaCopy="Click here, to get started"
           />
         </Carousel.Item>
