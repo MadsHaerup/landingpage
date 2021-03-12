@@ -2,6 +2,8 @@
 
 .planCard{
   border: 1px solid hsl(0,0%,90%);
+  flex:1;
+  max-width:20%;
 
   &__features{
     background-color: hsl(0,0%,100%);
@@ -12,15 +14,15 @@
     background-color: $primaryColor;
     color: $backgroundColor;
     text-align: center;
-    padding: 1em 0.5em;
+    padding: 0 0.5em;
     padding-top:1em;
-    height:29vh;
+    // height:29vh;
   }
 }
 .title__heading{
   color:$textColor;
   border-bottom: 1px solid $textColor;
-  padding-bottom: 1rem;
+  padding-bottom: 1em;
   text-transform: uppercase;
   max-width:80%;
   margin: 0 auto;
