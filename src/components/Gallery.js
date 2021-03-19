@@ -11,7 +11,7 @@ export default function Gallery() {
         gap={0}
         loop
         showDots={true}
-        autoplay={3000}
+        // autoplay={3000}
         >
         <Carousel.Item>
           <CarouselItem 
